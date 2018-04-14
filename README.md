@@ -1,7 +1,6 @@
 # Processing Assignment 4: Mad Libs
 
-In this assignment you will create a mad lib. Mad libs are short stories that have blanks called placeholders to be filled in. In the non-computerized version of this
-game, one person asks a second person to fill in each of the placeholders without the second person knowing the overall story. Once all placeholders are filled in, the second person is shown the resulting story, often with humorous results. See https://en.wikipedia.org/wiki/Mad_Libs for more info. Note: many song lyrics are not appropriate for this asignment due to their repetitive nature. If you want to use a song lyric make sure you ask Dr. P. first.
+In this assignment you will create a mad lib. Mad libs are short stories that have blanks called placeholders to be filled in. In the non-computerized version of this game, one person asks a second person to fill in each of the placeholders without the second person knowing the overall story. Once all placeholders are filled in, the second person is shown the resulting story, often with humorous results. See https://en.wikipedia.org/wiki/Mad_Libs for more info. Note: many song lyrics are not appropriate for this asignment due to their repetitive nature. If you want to use a song lyric make sure you ask Dr. P. first.
 
 In this assignment you will create a computerized version of mad libs where your program will read in a text file where the placeholders are indicated using tags. The program then replaced the placeholders with random words from pre-defined lists.
 
@@ -50,11 +49,6 @@ To know he's in there--
 That <noun>
 In our <noun>.
 ```
-Keep in mind that:
-* 60% - your poem needs to be at least 10 lines in length using proper coding conventions
-* 70% - you need to use all three tags (```noun```, ```verb```, ```adjective```) - but not repeate the same tag in a given line
-* 80% - mad lib has to have multiple instances of all three tags being used in a single line
-* 90% - program has to work perfectly + the mad lib needs to make sense syntactically (albeit it might be nonsensical), i.e. plural vs. singular, tense (past vs. present), etc.
 
 The ```MadLibs/data``` already contains dictionaries of nouns, verbs and adjectives. Using these is optional and you are allowed to use other dictionaries if you want to (they would have to be added to the repository). Each dictionary has to have at least 100 words in it. Feel free to create and use other types of dictionaries, e.g. exclamations, adverbs, names, animals, etc.
 
@@ -63,6 +57,14 @@ Your program will need to load each dictionary separatelly as well as the poem f
 Once the poem has been loaded you need to loop across each array entry (representing each line in the poem) and replace every occurence of the placeholders ```<noun>```, ```<verb>``` and ```<adjective>``` with a random word from the corresponding dictionary.
 
 The only console output the program will produce is the generated mad lib.
+
+These is one possible sequence of events:
+1. Load madlib poem file
+2. Load dictionaries (nouns, verbs, adjectives) 
+3. Loop across the individual lines in the madlib poem and for each line,
+  * Replace the nouns, verbs and adjectives in the current line
+  * Print the current line
+  
 
 ## Programing tips
 * Review arrays (https://processing.org/tutorials/arrays/), strings (https://processing.org/reference/String.html)
