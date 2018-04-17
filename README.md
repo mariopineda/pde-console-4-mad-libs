@@ -1,4 +1,4 @@
-# Processing Assignment 4: Mad Libs
+# processing-console-assignment-4-mad-libs
 
 In this assignment you will create a mad lib. Mad libs are short stories that have blanks called placeholders to be filled in. In the non-computerized version of this game, one person asks a second person to fill in each of the placeholders without the second person knowing the overall story. Once all placeholders are filled in, the second person is shown the resulting story, often with humorous results. See https://en.wikipedia.org/wiki/Mad_Libs for more info. Note: many song lyrics are not appropriate for this assignment due to their repetitive nature. 
 
