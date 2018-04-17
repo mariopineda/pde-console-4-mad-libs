@@ -1,13 +1,13 @@
 # Processing Assignment 4: Mad Libs
 
-In this assignment you will create a mad lib. Mad libs are short stories that have blanks called placeholders to be filled in. In the non-computerized version of this game, one person asks a second person to fill in each of the placeholders without the second person knowing the overall story. Once all placeholders are filled in, the second person is shown the resulting story, often with humorous results. See https://en.wikipedia.org/wiki/Mad_Libs for more info. Note: many song lyrics are not appropriate for this asignment due to their repetitive nature. If you want to use a song lyric make sure you ask Dr. P. first.
+In this assignment you will create a mad lib. Mad libs are short stories that have blanks called placeholders to be filled in. In the non-computerized version of this game, one person asks a second person to fill in each of the placeholders without the second person knowing the overall story. Once all placeholders are filled in, the second person is shown the resulting story, often with humorous results. See https://en.wikipedia.org/wiki/Mad_Libs for more info. Note: many song lyrics are not appropriate for this assignment due to their repetitive nature. 
 
 In this assignment you will create a computerized version of mad libs where your program will read in a text file where the placeholders are indicated using tags. The program then replaced the placeholders with random words from pre-defined lists.
 
 ## Instructions
-Find a poem of your choice that has at least ten lines and save it as a plain text file in the ```MadLibs/data``` directory. Name the file ```poem.txt```. You can use any poem you want to but if you cannot think of any you can start here  http://hellopoetry.com/shel-silverstein/poems/title/ for some poems by Shel Silverstein or http://100.best-poems.net/ for a mix of well known poems.
+Find a poem of your choice that has at least ten lines and save it as a plain text file in the `MadLibs/data` directory. Name the file `poem.txt`. You can use any poem you want to but if you cannot think of any you can start here  http://hellopoetry.com/shel-silverstein/poems/title/ for some poems by Shel Silverstein or http://100.best-poems.net/ for a mix of well known poems.
 
-Open ```poem.txt``` in a text editor and replace nouns with the tag ```<noun>```, verbs with ```<verb>``` and adjectives with ```<adjective>```. You do not have to replace all the nouns, verbs and adjectives with tags. It is up to you to decide with ones to replace to get a "good" mad lib. Avoid using the same tag more than once per row (try to figure out why a tag appearing more than once in a row would be a problem). Do try to use several different tags in at least some of the lines.
+Open `poem.txt` in a text editor and replace nouns with the tag `<noun>`, verbs with `<verb>` and adjectives with ```<adjective>```. You do not have to replace all the nouns, verbs and adjectives with tags. It is up to you to decide with ones to replace to get a "good" mad lib. Avoid using the same tag more than once per row (try to figure out why a tag appearing more than once in a row would be a problem). Do try to use several different tags in at least some of the lines.
 
 For example the following poem by Shel Silverstein
 ```
@@ -52,7 +52,7 @@ In our <noun>.
 
 The ```MadLibs/data``` already contains dictionaries of nouns, verbs and adjectives. Using these is optional and you are allowed to use other dictionaries if you want to (they would have to be added to the repository). Each dictionary has to have at least 100 words in it. Feel free to create and use other types of dictionaries, e.g. exclamations, adverbs, names, animals, etc.
 
-Your program will need to load each dictionary separatelly as well as the poem file (see assignment 4 for how to work with text files).
+Your program will need to load each dictionary separatelly as well as the poem file (see assignment 333 for how to work with text files).
 
 Once the poem has been loaded you need to loop across each array entry (representing each line in the poem) and replace every occurence of the placeholders ```<noun>```, ```<verb>``` and ```<adjective>``` with a random word from the corresponding dictionary.
 
