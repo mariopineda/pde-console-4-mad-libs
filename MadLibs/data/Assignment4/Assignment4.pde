@@ -7,20 +7,25 @@
  */
  
 void setup() {
-  int 
-  String [] = loadStrings("nouns.txt");  
-  [1]  [1].replaceAll("<noun>" [1]);
+ 
+  String lines[] = loadStrings("poem.txt");
+  String nouns[] = loadStrings("nouns.txt");
+  String verbs[] = loadStrings("verbs.txt");
+  String adjectives[] = loadStrings("adjectives.txt");
+  int n = int(random(nouns.length-1));
+  int v = int(random(verbs.length-1));
+  int a = int(random(adjectives.length-1));
+for (int i = 0 ; i < lines.length; i++) {
+  println(lines[i]);
+ lines[i] = lines[i].replaceAll("<noun>", nouns[n]);
+  
+}
 
-  println("I am <verb> these <noun>");
-  println("From inside a <noun>,");
-  println("And it's rather <adjective> in here.");
-  println("So please <noun> the <noun>");
-  println("Which may not be too <adjective>.");
-  println("But this afternoon by the <noun>'s <noun>");
-  println("I'm <adjective> I got too near.");
-  println("And I'm <verb> these lines");
-  println("From inside a <noun>,");
-  println("And it's rather <adjective> in here.");
+ 
+
+
+
+  
   }
 
 void draw() {
