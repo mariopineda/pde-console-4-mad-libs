@@ -1,5 +1,7 @@
 # processing-console-assignment-4-mad-libs
 
+**[Assignment Standard Operating Procedures](https://mariopineda.github.io/assignment-sops/)**
+
 In this assignment you will create a mad lib. Mad libs are short stories that have blanks called placeholders to be filled in. In the non-computerized version of this game, one person asks a second person to fill in each of the placeholders without the second person knowing the overall story. Once all placeholders are filled in, the second person is shown the resulting story, often with humorous results. See https://en.wikipedia.org/wiki/Mad_Libs for more info. Note: many song lyrics are not appropriate for this assignment due to their repetitive nature. 
 
 In this assignment you will create a computerized version of mad libs where your program will read in a text file where the placeholders are indicated using tags. The program then replaced the placeholders with random words from pre-defined lists.
